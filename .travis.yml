@@ -5,11 +5,11 @@ services:
 before_install:
   - docker build -t agungtrue/docker-simple-react -f dockerfile.dev .
 
-script: 
-  - docker run agungtrue/docker-simple-react npm run test -- --coverage
+# script: 
+#   - docker run agungtrue/docker-simple-react npm run test -- --coverage
 
-# script:
-#     - docker run -e CI=true agungtrue/docker-simple-react npm run test -- --coverage
+script:
+    - docker run -e CI=true agungtrue/docker-simple-react npm run test -- --coverage
 
 language: generic
 # language: node_js
