@@ -10,4 +10,4 @@ script:
 
 # script:
 #     - docker run -e CI=true agungtrue/docker-simple-react npm run test -- --coverage
-# language: generic
+language: generic
