@@ -17,10 +17,10 @@ language: generic
 deploy: 
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "docker-simple-react-2"
-  env: "Dockersimplereact2-env"
+  app: "docker-simple-react"
+  env: "Dockersimplereact-env"
   bucket_name: "elasticbeanstalk-us-east-2-974033066148"
-  bucket_path: "docker-simple-react-2"
+  bucket_path: "docker-simple-react"
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: "$AWS_SECRET_KEY"
   # secret_access_key:
