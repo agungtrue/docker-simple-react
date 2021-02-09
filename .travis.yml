@@ -19,7 +19,8 @@ deploy:
   region: "us-west-2"
   app: "docker-simple-react"
   env: "Dockersimplereact-env"
-  bucket_name: "elasticbeanstalk-us-east-2-974033066148"
+  # bucket_name: "elasticbeanstalk-us-east-2-974033066148"
+  bucket_name: "s3://elasticbeanstalk-us-east-2-974033066148/.elasticbeanstalk"
   bucket_path: "docker-simple-react"
   on:
     branch: master
