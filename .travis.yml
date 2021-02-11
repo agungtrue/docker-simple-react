@@ -19,10 +19,10 @@ language: generic
 deploy: 
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "docker-simple-react"
-  env: "Dockersimplereact-env"
+  app: "docker-react-first"
+  env: "Dockerreactfirst-env"
   bucket_name: "elasticbeanstalk-us-east-2-974033066148"
-  bucket_path: "docker-simple-react"
+  bucket_path: "docker-react-first"
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: "$AWS_SECRET_KEY"
   # secret_access_key:
