@@ -3,8 +3,8 @@ services:
   - docker
 
 before_install:
-  # - docker build -t agungtrue/docker-simple-react -f dockerfile.dev .
-  - docker build -t agungtrue/docker-simple-react -f dockerfile .
+  - docker build -t agungtrue/docker-simple-react -f dockerfile.dev .
+  # - docker build -t agungtrue/docker-simple-react -f dockerfile .
 
 # script: 
 #   - docker run agungtrue/docker-simple-react npm run test -- --coverage
