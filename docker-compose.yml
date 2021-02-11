@@ -4,8 +4,8 @@ services:
         stdin_open: true
         build:
             context: .
-            # dockerfile: dockerfile.dev
-            dockerfile: Dockerfile
+            dockerfile: dockerfile.dev
+            # dockerfile: Dockerfile
         ports: 
             - "3000:3000"
         volumes:
@@ -17,8 +17,8 @@ services:
         stdin_open: true
         build:
             context: .
-            # dockerfile: dockerfile.dev
-            dockerfile: Dockerfile
+            dockerfile: dockerfile.dev
+            # dockerfile: Dockerfile
         volumes:
             - /app/node_modules
             - .:/app
